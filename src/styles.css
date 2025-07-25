@@ -10,6 +10,7 @@ body{
 }
 
 .tarjeta {
+    padding-top: auto;
     width: 900px;
     height: fit-content;
     margin-left: auto;
@@ -52,13 +53,16 @@ h1 {
 
 .link {
     color: #0078d4;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+
 }
 
-.link:hover {
-    text-decoration: underline;
-}
+
 #sup{
     display: none;
 }
@@ -67,4 +71,8 @@ h1 {
 }
 #ocl{
     display: none;
+}
+.texto{
+    color: #f0f0f0;
+
 }
